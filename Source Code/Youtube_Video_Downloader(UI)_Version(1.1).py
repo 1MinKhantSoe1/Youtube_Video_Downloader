@@ -64,7 +64,8 @@ def main():
     tk.title("Youtube Video Downloader (Version 1.1)")
     tk.geometry("500x400")
     tk.columnconfigure(0, weight=1)
-
+    tk.resizable(False, False)
+    
     # Link Label
     ydLabel = Label(tk, text="Please Paste URL of the video here", font=("jost", 13))
     ydLabel.grid()
